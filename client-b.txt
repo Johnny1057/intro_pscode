@@ -2,3 +2,49 @@
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
 
+- // Define variables
+Set_location = (set_x, set_y) 
+customer_location = (cust_x, cust_y)
+current_location = customer_location
+directions = (north, south, east, west)
+
+// Create a function for moving customer position
+Function movement(directions, current_location)
+ if direction == north
+	cust_y + 1
+else if direction == south
+	cust_y - 1
+else if direction == east
+	cust_x + 1
+else if direction == west
+	cust_x - 1
+return current location.
+
+// create a function to determine which direction to move
+function direct(current_location, set_location)
+	if current_location y < set_location y
+return "north"
+	else if current_location y > set_location y
+return "south"
+	else if current_location x < set_location x
+return "east"
+	else if current_location x > set_location x
+return "west"
+else "arrived"
+
+// loop until locations match
+while current_location != set_location
+
+// which direction to move next
+move_direction = direct(current_location, set_location)
+
+// if customer has reached set location
+if move_direction == arrived
+print "You have arrived"
+
+// if customer is not at set location
+current_location = movement(move_direction, current_location)
+
+// show location and next movement
+print("Move", move_direction)
+print("currant location". current_location)

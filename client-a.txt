@@ -1,4 +1,17 @@
 # Client Task A #
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
-
+- Print. "Hello player! Guess a number 1-10 to win!" 
+- Print. "Would you like to play?" Display input box [y/n]. 
+- If y then generate array [1,10] pick random from array (do not display)
+	Else restart program.
+- Print. "Enter your guess into the box" 
+- Display input box [Enter number here] Print "Chances left = 3"
+- If player input == rand Print "Congratulations you win!" restart program
+	Else Print "Oops try again!"
+- Display input box [Enter number here] Print "Chances left = 2"
+- If player input == rand Print "Congratulations you win!" restart program
+	Else Print "Oops try again!"
+- Display input box [Enter number here] Print "Chances left = 1"
+- If player input == rand Print "Congratulations you win!" restart program
+	Else Print "Game Over!" restart program

@@ -2,3 +2,18 @@
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
 
+// Varibles
+start_count = 2
+end_count = 50
+scanned = 2
+
+//create loop
+
+While start_count < end_count 
+	print(start_count)
+	Increment start_count by scanned
+end while
+
+// Print finished results
+Print(end_count)
+Print("Package full, all items scanned")
